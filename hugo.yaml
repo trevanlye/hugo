@@ -4,42 +4,42 @@ module:
     - path: github.com/CaiJimmy/hugo-theme-stack/v3
 
 baseurl: https://www.trevanlye.cn/
-languageCode: en-us
+languageCode: zh-cn
 #theme: hugo-theme-stack
 title: Example Site
-copyright: Example Person
+copyright: Beyond.春风
 
 # Theme i18n support
 # Available values: ar, bn, ca, de, el, en, es, fr, hu, id, it, ja, ko, nl, pt-br, th, uk, zh-cn, zh-hk, zh-tw
-DefaultContentLanguage: en
+DefaultContentLanguage: zh-cn
 
 # Set hasCJKLanguage to true if DefaultContentLanguage is in [zh-cn ja ko]
 # This will make .Summary and .WordCount behave correctly for CJK languages.
 hasCJKLanguage: false
 
 languages:
-    en:
-        languageName: English
-        title: Example Site
-        weight: 1
-        params:
-            sidebar:
-                subtitle: Example description
+    # en:
+    #     languageName: English
+    #     title: Example Site
+    #     weight: 1
+    #     params:
+    #         sidebar:
+    #             subtitle: Example description
     zh-cn:
-        languageName: 中文
-        title: 演示站点
+        languageName: 简体中文
+        title: Beyond.春风
         weight: 2
         params:
             sidebar:
-                subtitle: 演示说明
-    ar:
-        languageName: عربي
-        languagedirection: rtl
-        title: موقع تجريبي
-        weight: 3
-        params:
-            sidebar:
-                subtitle: وصف تجريبي
+                subtitle: 合纵连横，方能以弱胜强
+    # ar:
+    #     languageName: عربي
+    #     languagedirection: rtl
+    #     title: موقع تجريبي
+    #     weight: 3
+    #     params:
+    #         sidebar:
+    #             subtitle: وصف تجريبي
 
 services:
     # Change it to your Disqus shortname before using
@@ -61,30 +61,30 @@ params:
         - post
     featuredImageField: image
     rssFullContent: true
-    favicon: # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
+    favicon: /favicon.ico # e.g.: favicon placed in `static/favicon.ico` of your site folder, then set this field to `/favicon.ico` (`/` is necessary)
 
     footer:
-        since: 2020
-        customText:
+        since: 2025
+        customText: 
 
     dateFormat:
-        published: Jan 02, 2006
+        published: 2006年01月02日
         lastUpdated: Jan 02, 2006 15:04 MST
 
     sidebar:
-        emoji: 🍥
-        subtitle: Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        emoji: 🎸
+        subtitle: Only by forming alliances and building strategies can the weak prevail over the strong.
         avatar:
             enabled: true
             local: true
-            src: img/avatar.png
+            src: img/grass.png
 
     article:
         math: false
         toc: true
-        readingTime: true
+        readingTime: false
         license:
-            enabled: true
+            enabled: false
             default: Licensed under CC BY-NC-SA 4.0
 
     comments:
@@ -222,15 +222,15 @@ menu:
     social:
         - identifier: github
           name: GitHub
-          url: https://github.com/CaiJimmy/hugo-theme-stack
+          url: https://github.com/trevanlye
           params:
               icon: brand-github
 
-        - identifier: twitter
-          name: Twitter
-          url: https://twitter.com
-          params:
-              icon: brand-twitter
+        # - identifier: twitter
+        #   name: Twitter
+        #   url: https://twitter.com
+        #   params:
+        #       icon: brand-twitter
 
 related:
     includeNewer: true
