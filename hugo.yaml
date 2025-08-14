@@ -3,7 +3,7 @@ module:
   imports:
     - path: github.com/CaiJimmy/hugo-theme-stack/v3
 
-baseurl: https://example.com/
+baseurl: https://www.trevanlye.cn/
 languageCode: en-us
 #theme: hugo-theme-stack
 title: Example Site
